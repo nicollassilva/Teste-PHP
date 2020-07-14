@@ -1,0 +1,7 @@
+RewriteEngine ON
+Options -Indexes
+
+RewriteBase /
+
+RewriteRule ^api/veiculos/?$ api/veiculos.php [NC,L]
+RewriteRule ^api/veiculos/([0-9]+)?$ api/veiculos.php?id=$1 [NC,L]

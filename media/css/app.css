@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Oxanium:300,400,500,700&display=swap');
+
+body {
+    font-family: 'Oxanium', cursive;
+    background-color: #ccc;
+}
+
+.new-vehicle {
+    background-color: #364382 !important;
+    color: white;
+    font-size: 14px;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    cursor: pointer;
+}
+
+.btn-search {
+    border: 2px solid #ccc;
+    border-right: none;
+}
+
+.search-vehicle { border: 2px solid #ccc; border-right: none; }
+
+.vehicle-info {
+    height: 80px;
+    background-color: #f1f1f1;
+}
+
+.vehicle-info:nth-child(even) { background-color: white; }
+
+.vehicle-info:hover { background-color: #ddd; }
+.vehicle-info.active { background-color: #bbb; }
+
+.box-vehicles { max-height: 450px; }
+
+.w-95 { width: 95%; }
+
+.edit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.vehicle-info .info {
+    line-height: 17px;
+    font-size: 14px;
+}
+
+.vehicle-info .info strong:nth-child(2),
+.details-vehicle strong { color: #364382 !important; }
+
+.details-vehicle strong { font-size: 20px; }
+
+.details-vehicle .details p.text-muted {
+    font-size: 12px;
+}
+
+.details-vehicle .details h6.h6 {
+    font-size: 18px;
+}
+
+.details-vehicle .details .v-description {
+    max-height: 250px;
+}
+
+textarea[name="description"] { min-height: 80px; max-height: 200px; }
