@@ -258,9 +258,9 @@ Site = {
                 },
                 success: function(response) {
                     html = '';
+                    button.attr('disabled', false)
                     setTimeout(() => {
                         if(response !== undefined) {
-                            button.attr('disabled', false)
                             $('.box-vehicles, .details-vehicle .details').html('')
                             response.length === undefined ? data[0] = response : data = response;
                             data.forEach(function(e, i) {

@@ -19,7 +19,7 @@
             <form action="api/veiculos" method="post" class="form w-100 px-2 edit-form">
                 <div class="col-auto">
                     <div class="input-group mb-2">
-                        <input type="text" class="form-control search-vehicle" placeholder="Buscar veículo ft.(nome, marca ou ano)" name="search">
+                        <input type="text" class="form-control search-vehicle" placeholder="Buscar veículo por: nome, marca ou ano" name="search">
                         <div class="input-group-prepend">
                             <button type="submit" class="input-group-text btn-search"><i class="fas fa-search"></i></button>
                         </div>

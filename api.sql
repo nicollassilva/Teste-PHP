@@ -4,7 +4,7 @@ CREATE TABLE `veiculos` (
   `marca` varchar(255) NOT NULL,
   `ano` int(11) NOT NULL,
   `descricao` text NOT NULL,
-  `vendido` enum('true','false') NOT NULL,
+  `vendido` enum('true','false') NOT NULL DEFAULT('false'),
   `created` datetime NOT NULL,
   `updated` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
